@@ -10,6 +10,9 @@ return {
         },
       },
     },
+    explorer = {
+      reveal = true,
+    },
     notifier = {
       top_down = false,
     },
