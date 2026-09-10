@@ -86,6 +86,6 @@ return {
 
   {
     "LazyVim/LazyVim",
-    opts = { colorscheme = "sonokai" },
+    opts = { colorscheme = "pureblack" },
   },
 }
