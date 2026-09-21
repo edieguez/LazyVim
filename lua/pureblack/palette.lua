@@ -5,6 +5,7 @@ M.colors = {
   bg_alt = "#0a0a0a",
   bg_float = "#0d0d0d",
   bg_cursorline = "#141414",
+  bg_current_line = "#1e1e1e",
   bg_visual = "#2e2e2e",
   bg_sel = "#3a3a3a",
   border = "#303030",

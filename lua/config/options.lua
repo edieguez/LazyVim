@@ -19,6 +19,9 @@ vim.opt.listchars = {
 -- Show vertical line at 120 chars
 vim.opt.colorcolumn = "120"
 
+-- Highlight the cursor's column, matching the cursor's line highlight
+vim.opt.cursorcolumn = true
+
 -- Node-based tools (e.g. markdownlint-cli2) need node, which the shell
 -- lazy-loads and may not be on nvim's PATH; fall back to the newest nvm install
 if vim.fn.executable("node") == 0 then

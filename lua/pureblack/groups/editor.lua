@@ -8,8 +8,11 @@ return function(c)
     FloatTitle = { fg = c.fg, bg = c.bg_float, bold = true },
     WinSeparator = { fg = c.border, bg = c.bg },
 
-    CursorLine = { bg = c.bg_cursorline },
-    CursorLineNr = { fg = c.yellow, bold = true },
+    CursorLine = { bg = c.bg_current_line },
+    CursorLineNr = { fg = c.yellow, bold = true, bg = c.bg_current_line },
+    CursorLineSign = { bg = c.bg_current_line },
+    CursorLineFold = { bg = c.bg_current_line },
+    CursorColumn = { bg = c.bg_current_line },
     LineNr = { fg = c.nontext },
     SignColumn = { bg = c.bg },
     ColorColumn = { bg = "#0f0f0f" },
