@@ -13,8 +13,8 @@ return function(c)
     ["@markup.strikethrough"] = { fg = c.comment, strikethrough = true },
     ["@markup.underline"] = { underline = true },
 
-    ["@markup.raw"] = { fg = c.orange, bg = c.bg_float },
-    ["@markup.raw.block"] = { fg = c.orange, bg = c.bg_float },
+    ["@markup.raw"] = { fg = c.orange, bg = c.bg_cursorline },
+    ["@markup.raw.block"] = { fg = c.orange, bg = c.bg_cursorline },
 
     ["@markup.link.label"] = { fg = c.blue, underline = true },
     ["@markup.link.url"] = { fg = c.comment, underline = true },

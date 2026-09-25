@@ -8,13 +8,13 @@ M.colors = {
   bg_current_line = "#1e1e1e",
   bg_visual = "#2e2e2e",
   bg_sel = "#3a3a3a",
-  border = "#303030",
+  border = "#454545",
   statusline = "#101010",
 
   fg = "#d9d9d9",
   fg_dim = "#b8b8b8",
-  comment = "#8a8a8a",
-  nontext = "#5a5a5a",
+  comment = "#a8a8a8",
+  nontext = "#707070",
 
   red = "#f05a5a",
   green = "#5ce65c",
