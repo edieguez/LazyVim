@@ -5,6 +5,12 @@
 -- Add jk as alternative to Esc
 vim.keymap.set("i", "jk", "<Esc>", { desc = "Escape insert mode" })
 
+-- gh to go to the start of the line (like _)
+vim.keymap.set({ "n", "x" }, "gh", "_", { desc = "Go to start of line" })
+
+-- gl to go to the end of the line (like $)
+vim.keymap.set({ "n", "x" }, "gl", "$", { desc = "Go to end of line" })
+
 -- Save all buffers and quit
 -- vim.keymap.set("n", "<leader>qW", "<cmd>wqall<cr>", { desc = "Save all and quit" })
 
